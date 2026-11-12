@@ -63,7 +63,7 @@ Neurónová sieť bude mať šesť výstupných kategórií: dopredu, dozadu, v�
 
 ## 4. Rozdelenie práce medzi troch členov
 
-### Člen 1 – Získavanie zvuku a periférie STM32
+### Člen 1 (Ekaterina Sokolova) – Získavanie zvuku a periférie STM32
 
 - nakonfigurovať STM32 v STM32CubeMX;
 - nastaviť SAI alebo DFSDM;
@@ -74,7 +74,7 @@ Neurónová sieť bude mať šesť výstupných kategórií: dopredu, dozadu, v�
 - testovať kvalitu zaznamenaného signálu;
 - odosielať diagnostické údaje cez UART alebo USB.
 
-### Člen 2 – Dataset a neurónová sieť TinyML
+### Člen 2 (Matvii Boltian) – Dataset a neurónová sieť TinyML
 
 - nahrať hlasové povely od viacerých osôb;
 - pripraviť nahrávky neznámych slov, hluku a ticha;
@@ -85,7 +85,7 @@ Neurónová sieť bude mať šesť výstupných kategórií: dopredu, dozadu, v�
 - konvertovať a integrovať model pomocou STM32Cube.AI;
 - zmerať využitie Flash, RAM a čas inferencie priamo na STM32.
 
-### Člen 3 – Displej, LED a integrácia systému
+### Člen 3 (Aleksandr Bobrov) – Displej, LED a integrácia systému
 
 - nakonfigurovať I²C rozhranie STM32;
 - vytvoriť ovládač pre OLED SSD1306;
