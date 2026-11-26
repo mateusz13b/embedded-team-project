@@ -82,13 +82,13 @@ Neurónová sieť bude mať šesť výstupných kategórií: dopredu, dozadu, v�
 - implementovať MFCC alebo spektrogram;
 - navrhnúť a natrénovať malú CNN sieť;
 - vykonať INT8 kvantizáciu;
-- konvertovať a integrovať model pomocou STM32Cube.AI;
+- vytvoriť ovládač pre OLED SSD1306;
 - zmerať využitie Flash, RAM a čas inferencie priamo na STM32.
 
 ### Člen 3 (Aleksandr Bobrov) – Displej, LED a integrácia systému
 
+- konvertovať a integrovať model pomocou STM32Cube.AI;
 - nakonfigurovať I²C rozhranie STM32;
-- vytvoriť ovládač pre OLED SSD1306;
 - vykresliť šípky pre štyri smery;
 - pripojiť a ovládať stavový LED cez GPIO;
 - vytvoriť hlavný programový cyklus;
